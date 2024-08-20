@@ -10,22 +10,36 @@
 	<system:String x:Key="WindowTitleSaveFilePicker">Datei speichern</system:String>
 	<system:String x:Key="WindowTitleOpenFilePicker">Datei öffnen</system:String>
 	<system:String x:Key="WindowTitleGuiGenerator">GUI generieren</system:String>
+	<system:String x:Key="WindowTitleCommandGenerator">Command generieren</system:String>
 	<system:String x:Key="WindowTitleItemSelector">Element auswählen</system:String>
 	<system:String x:Key="WindowTitleMarketplace">Marktplatz</system:String>
+	<system:String x:Key="WindowTitleElementRename">Umbennen</system:String>
+	<system:String x:Key="WindowTitleElementCreate">Erstellen</system:String>
+	<system:String x:Key="WindowTitleColorSelector">Farb wähler</system:String>
 
 	<!-- Menu Headers -->
 	<system:String x:Key="MenuHeaderFile">Datei</system:String>
 	<system:String x:Key="MenuHeaderEdit">Bearbeiten</system:String>
 	<system:String x:Key="MenuHeaderTools">Werkzeuge</system:String>
 	<system:String x:Key="MenuHeaderOther">Andere</system:String>
+	<system:String x:Key="MenuHeaderAddons">Addons</system:String>
+	<system:String x:Key="MenuHeaderManageAddons">Addons verwalten</system:String>
 
 	<!-- File Menu -->
 	<system:String x:Key="MenuHeaderNew">Neu</system:String>
 	<system:String x:Key="MenuHeaderOpen">Öffnen</system:String>
+	<system:String x:Key="MenuHeaderOpenFolder">Ordner öffnen</system:String>
 	<system:String x:Key="MenuHeaderSave">Speichern</system:String>
 	<system:String x:Key="MenuHeaderSaveAs">Speichern unter</system:String>
+	<system:String x:Key="MenuHeaderSaveAll">Alles Speichern</system:String>
 	<system:String x:Key="MenuHeaderPublish">Veröffentlichen</system:String>
 	<system:String x:Key="MenuHeaderClose">Schließen</system:String>
+	<system:String x:Key="MenuHeaderCloseCurrentFile">Geöffnete datei</system:String>
+	<system:String x:Key="MenuHeaderCloseAll">Alles dateien</system:String>
+	<system:String x:Key="MenuHeaderCloseAllButCurrent">Alles ausser geöffnete datei</system:String>
+	<system:String x:Key="MenuHeaderCloseUnsaved">Alle nicht gespeicherte dateien</system:String>
+	<system:String x:Key="MenuHeaderCloseLeft">Alle Links</system:String>
+	<system:String x:Key="MenuHeaderCloseRight">Alle Rechts</system:String>
 
 	<!-- Edit Menu -->
 	<system:String x:Key="MenuHeaderCopy">Kopieren</system:String>
@@ -36,13 +50,16 @@
 	<system:String x:Key="MenuHeaderDuplicate">Duplizieren</system:String>
 	<system:String x:Key="MenuHeaderComment">Kommentieren</system:String>
 	<system:String x:Key="MenuHeaderDelete">Löschen</system:String>
+	<system:String x:Key="MenuHeaderGoToLine">Zur linie</system:String>
+	<system:String x:Key="MenuHeaderTrimWhitespaces">Leerzeichen entfernen</system:String>
 
 	<!-- Tools Menu -->
 	<system:String x:Key="MenuHeaderDocumentation">Dokumentation</system:String>
 	<system:String x:Key="MenuHeaderGenerate">Generieren</system:String>
 	<system:String x:Key="MenuHeaderGenerateGUI">GUI</system:String>
-	<system:String x:Key="MenuHeaderGenerateCommand">Befehl</system:String>
+	<system:String x:Key="MenuHeaderGenerateCommand">Command generieren</system:String>
 	<system:String x:Key="MenuHeaderRefactor">Umbenennen</system:String>
+	<system:String x:Key="MenuHeaderColorSelector">Farb wähler</system:String>
 
 	<!-- Other Menu -->
 	<system:String x:Key="MenuHeaderMarketplace">Marktplatz</system:String>
@@ -66,18 +83,28 @@
 	<system:String x:Key="NewFileNameFormat">Neue Datei {0}</system:String>
 	<system:String x:Key="FailedToDownloadSyntax">Fehler beim Herunterladen der Syntax-Hervorhebungsdatei! Überprüfen Sie Ihre Internetverbindung. Ohne sie wird Ihr Code nicht hervorgehoben.</system:String>
 	<system:String x:Key="DownloadingMissingFilesTitle">Fehlende Dateien</system:String>
+	<system:String x:Key="Downloading">Herunterladen</system:String>
 	<system:String x:Key="DownloadingMissingFiles">Herunterladen</system:String>
 	<system:String x:Key="DownloadingMissingFilesDescriptionItems">Dateien, die vom Elementauswahlwerkzeug verwendet werden, fehlen und werden jetzt heruntergeladen.</system:String>
 	<system:String x:Key="DownloadingMissingFilesDescriptionAnalyzer">Die vom Analysetool verwendete Datei fehlt und wird jetzt heruntergeladen.</system:String>
 	<system:String x:Key="DownloadMissingFilesFailed">Das Herunterladen fehlender Dateien ist fehlgeschlagen. Bitte versuchen Sie es später erneut.</system:String>
 	<system:String x:Key="ClosingUnsavedFile">Sie haben ungespeicherte Änderungen in dieser Datei. Möchten Sie sie wirklich schließen?</system:String>
 	<system:String x:Key="ClosingProgramWithUnsavedFiles">Sie haben in mindestens einer Datei ungespeicherte Änderungen. Möchten Sie die Anwendung wirklich schließen?</system:String>
+	<system:String x:Key="ChangesDetected">This file was changed externally.\nDo you want to reload it and possibly lose changes made in SkEditor?</system:String>
+	<system:String x:Key="DownloadingUpdateTitle">Update wird heruntergeladen</system:String>
+	<system:String x:Key="UpdateAvailable">Update verfügbar</system:String>
+	<system:String x:Key="UpdateAvailableMessage">Eim Update ist verfügbar.\nMöchten sie es herunterladen?</system:String>
+	<system:String x:Key="UpdateFailed">Fehler beim Herunterladen, Bitte versuchenb sie es später erneut</system:String>
+	<system:String x:Key="BinaryFileFound">Anscheinend versuchen Sie, eine Binärdatei zu öffnen (oder eine nicht textbasierte Datei).\n\nWollen sie die datei trotzdem öffnen? SkEditor könnte es nicht verarbeiten.</system:String>
+	<system:String x:Key="BinaryFileTitle">Binärdatei gefunden</system:String>
 
 	<!-- Publish Window -->
+	<system:String x:Key="PublishWindowNoApiKey">Verwalten sie ihren API schlüssel in den einstellungen!</system:String>
 	<system:String x:Key="PublishWindowApiKeyHint">Klicken Sie hier, um eine Website mit dem API-Schlüssel zu öffnen. Stellen Sie sicher, dass Sie sich zuerst anmelden!</system:String>
 	<system:String x:Key="PublishWindowAnonymously">Anonym</system:String>
 	<system:String x:Key="PublishWindowResultLink">Link zu Ihrem Code</system:String>
 	<system:String x:Key="PublishWindowPublishButton">Veröffentlichen</system:String>
+	<system:String x:Key="PublishWindowWarning">Ihre API schlüssel können jetzt in den einstellungen verwaltet werden -> Verbindungen.</system:String>
 	
 	<!-- Refactor Window -->
 	<system:String x:Key="RefactorWindowRemoveComments">Kommentare entfernen</system:String>
